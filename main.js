@@ -1,4 +1,3 @@
-var message = "Hello!";
-alert(message);
-message = "Welcome to Javascript Basics";
-alert(message);
+var visitor = prompt("What you're name?");
+var message = 'Hello ' + visitor + ". Did you know that combining strings is called, concatenation. " + visitor + ", follow the white rabbit.";
+document.write(message);
