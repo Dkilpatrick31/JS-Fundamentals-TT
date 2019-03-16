@@ -1,17 +1,4 @@
-// var visitor = prompt("What you're name?");
-// var message = 'Hello ' + visitor + ". Did you know that combining strings is called, concatenation. " + visitor + ", follow the white rabbit.";
-// document.write(message);
-// 
-//
-// var visitor = prompt("What you're name?");
-// var message = 'Hello ' + visitor + ". Did you know that combining strings is called, concatenation. ";
-// message = message + visitor + ", follow the white rabbit.";
-// document.write(message);
-//
-
-
-var visitor = prompt("What you're name?");
-var message = 'Hello ' + visitor + ". Did you know that combining strings is called, concatenation. ";
-message += visitor;
-message += ", follow the white rabbit.";
-document.write(message);
+var shout = prompt("Tell me what you want me to yell back at you!");
+var shoutingBack = shout.toUpperCase();
+shoutingBack += "!";
+alert(shoutingBack);
