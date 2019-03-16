@@ -1,1 +1,4 @@
-alert("Hey you're back for more!");
+var message = "Hello!";
+alert(message);
+message = "Welcome to Javascript Basics";
+alert(message);
