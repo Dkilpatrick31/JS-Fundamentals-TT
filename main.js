@@ -7,13 +7,28 @@ rank the players
   bronze - 1 to 2 correctly
   no crown - 0 correct
 
+var correct = 0;
 var question1 = prompt("What color is the sky?");
-var answer1 = BLUE;
+if (question1.toUpperCase() === 'BlUE' || question1.toLowerCase() === 'blue'); {
+  correct += 1;
+}
 var question2 = prompt("What is my Name?");
-var answer2 = Dane;
-var question3 = prompt('Are you alive?');
-var answer3 = yes;
-var question4 = prompt("Would you like to have a job already?");
-var answer4 = YES;
-var question5 = prompt("What language must you learn to do that?");
-var answer5 = Javascript;
+if (question2.toUpperCase() === "DANE" || question2.toLowerCase() === 'dane'); {
+  correct += 1;
+}
+var question3 = prompt("Do you wish you had a job right now?");
+if (question3.toUpperCase() === 'YES' || questoin3.toLowerCase() === 'yes') {
+  correct += 1;
+}
+var question4 = prompt()
+
+
+
+
+
+//
+// if (correct === 5 ) {
+//   document.write
+// } else if (correct >= 3) {
+//   alert()
+// }
